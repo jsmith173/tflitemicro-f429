@@ -7,5 +7,7 @@ Test project for tflitemicro-ren
 * Add the app files
 	* main_functions.cc, ...
 	* Include path: add tensorflow root at the first place (for C++ only)
-
+* App specific
+	* InitializeTarget
+	* DebugLog
 	
