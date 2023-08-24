@@ -1,7 +1,7 @@
-Test project for tflitemicro-ren
+Test project for tflitemicro-lib-cm4
 * Linker options
-	* Add linker lib: tflitemicro-ren/Debug
-	* Add .a file: tflitemicro-ren
+	* Add linker lib: tflitemicro-lib-cm4/Debug
+	* Add .a file: tflitemicro-lib-cm4
 * Convert to C++	
 * Refresh and add the App source folder	
 * Add the app files
@@ -10,4 +10,3 @@ Test project for tflitemicro-ren
 * App specific
 	* InitializeTarget
 	* DebugLog
-	
