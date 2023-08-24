@@ -105,7 +105,7 @@ int main(void)
   //MX_USB_OTG_FS_PCD_Init();
 
   /* USER CODE BEGIN 2 */
-  setup();
+  ai_setup();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -113,8 +113,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
     /* USER CODE BEGIN 3 */
+    ai_loop();
   }
   /* USER CODE END 3 */
 }

@@ -38,7 +38,7 @@ uint8_t tensor_arena[kTensorArenaSize];
 }  // namespace
 
 // The name of this function is important for Arduino compatibility.
-void setup() {
+void ai_setup() {
   tflite::InitializeTarget();
 
   // Set up logging. Google style is to avoid globals or statics because of
@@ -83,7 +83,7 @@ void setup() {
 }
 
 // The name of this function is important for Arduino compatibility.
-void loop() {
+void ai_loop() {
   // Calculate an x value to feed into the model. We compare the current
   // inference_count to the number of inferences per cycle to determine
   // our position within the range of possible x values the model was
